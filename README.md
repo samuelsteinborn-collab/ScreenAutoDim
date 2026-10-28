@@ -22,6 +22,8 @@ ScreenAutoDim does not talk to the monitor. For each display it draws a black, c
 
 Download `ScreenAutoDim.exe` from the [Releases](../../releases) page and run it. It is self-contained and needs no .NET install. The first run opens the settings window.
 
+**Windows SmartScreen:** the first time you run it, Windows may show "Windows protected your PC". That is Microsoft Defender SmartScreen warning about a program it hasn't seen often, because ScreenAutoDim is not code-signed. Click **More info**, then **Run anyway**. The source is in this repository and the release `.exe` is built from it by GitHub Actions.
+
 Tick **Start ScreenAutoDim with Windows** in the settings to launch it at every logon. Move the `.exe` somewhere permanent first, since the autostart entry points to its current location.
 
 ## Settings
